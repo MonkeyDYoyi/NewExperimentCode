@@ -1,1 +1,15 @@
-output/
+# Ignorar carpetas de imágenes de validación y outputs generales
+output*/
+Validation_Plots*/
+
+# Ignorar archivos de datos generados por los scripts
+*.csv
+*.fif
+
+# Ignorar imágenes y reportes generados
+*.png
+*.pdf
+
+# (Opcional) Ignorar carpetas de datos crudos si las tienes dentro del proyecto
+Preprocessed Data/
+Raw Data/
